@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f1170ef5-c9f8-467c-bf4b-e73e2ab4c226" name="lnickers@STPHOTOSCALA01 2013-08-26 00:28:51" runUser="STPHOTOSCALA01\lnickers" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="099dff75-17d7-4edf-95a3-9db9138faf21">
+    <Deployment runDeploymentRoot="lnickers_STPHOTOSCALA01 2013-08-26 00_28_51">
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\NUnit.2.6.2\lib\nunit.framework.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.Data.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\MvcApplication5\bin\MvcApplication5.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\MvcApplication5.Tests\bin\Debug\EntityFramework.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.Helpers.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\Microsoft.Web.WebPages.OAuth.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\MvcApplication5.Tests\bin\Debug\System.Web.Optimization.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll" />
+      <DeploymentItem filename="C:\Program Files\Microsoft ASP.NET\ASP.NET Web Pages\v2.0\Assemblies\WebMatrix.WebData.dll" />
+      <DeploymentItem filename="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-26T00:28:51.9375000-04:00" queuing="2013-08-26T00:28:52.8437500-04:00" start="2013-08-26T00:28:52.8593750-04:00" finish="2013-08-26T00:29:21.8906250-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" error="0" failed="2" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="STPHOTOSCALA01" outcome="Warning" timestamp="2013-08-26T00:28:52.8437500-04:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'log4net' directly or indirectly referenced by the test container 'c:\documents and settings\lnickers\my documents\visual studio 2010\projects\mvcapplication5\mvcapplication5.tests\bin\debug\mvcapplication5.tests.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="STPHOTOSCALA01" outcome="Warning" timestamp="2013-08-26T00:28:52.8437500-04:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Org.Mentalis.Security.Cryptography' directly or indirectly referenced by the test container 'c:\documents and settings\lnickers\my documents\visual studio 2010\projects\mvcapplication5\mvcapplication5.tests\bin\debug\mvcapplication5.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="UsersContextConstructorTest" storage="c:\documents and settings\lnickers\my documents\visual studio 2010\projects\mvcapplication5\mvcapplication5.tests\bin\debug\mvcapplication5.tests.dll" id="d1bd7509-f9bb-8546-d73f-db7a546334fe">
+      <Execution id="d623e570-e1b4-4ba9-9caf-92f4bc7363d9" />
+      <TestMethod codeBase="c:/documents and settings/lnickers/my documents/visual studio 2010/Projects/MvcApplication5/MvcApplication5.Tests/bin/Debug/MvcApplication5.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcApplication5.Tests.UsersContextTest, MvcApplication5.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UsersContextConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:2848/">
+        <Host pathToWebApp="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\MvcApplication5" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="UserProfilesTest" storage="c:\documents and settings\lnickers\my documents\visual studio 2010\projects\mvcapplication5\mvcapplication5.tests\bin\debug\mvcapplication5.tests.dll" id="376f7135-1e21-9833-0d08-9656d7356317">
+      <Execution id="0040157e-85a8-4a5d-84e4-a839d8f4ae59" />
+      <TestMethod codeBase="c:/documents and settings/lnickers/my documents/visual studio 2010/Projects/MvcApplication5/MvcApplication5.Tests/bin/Debug/MvcApplication5.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcApplication5.Tests.UsersContextTest, MvcApplication5.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserProfilesTest" />
+      <AspNet webSiteUrl="http://localhost:2848/">
+        <Host pathToWebApp="c:\documents and settings\lnickers\my documents\visual studio 2010\Projects\MvcApplication5\MvcApplication5" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="376f7135-1e21-9833-0d08-9656d7356317" executionId="0040157e-85a8-4a5d-84e4-a839d8f4ae59" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1bd7509-f9bb-8546-d73f-db7a546334fe" executionId="d623e570-e1b4-4ba9-9caf-92f4bc7363d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0040157e-85a8-4a5d-84e4-a839d8f4ae59" testId="376f7135-1e21-9833-0d08-9656d7356317" testName="UserProfilesTest" computerName="STPHOTOSCALA01" startTime="2013-08-26T00:28:52.9062500-04:00" endTime="2013-08-26T00:29:18.7187500-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0040157e-85a8-4a5d-84e4-a839d8f4ae59">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:2848/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UserProfilesTest.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="STPHOTOSCALA01\WebRequestResponse_UserProfilesTest.html" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="d623e570-e1b4-4ba9-9caf-92f4bc7363d9" testId="d1bd7509-f9bb-8546-d73f-db7a546334fe" testName="UsersContextConstructorTest" computerName="STPHOTOSCALA01" startTime="2013-08-26T00:29:18.7187500-04:00" endTime="2013-08-26T00:29:21.8281250-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d623e570-e1b4-4ba9-9caf-92f4bc7363d9">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web request 'http://localhost:2848/' completed successfully without running the test. This can occur when configuring the Web application for testing fails (an ASP.NET server error occurs when processing the request), or when no ASP.NET page is executed (the URL may point to an HTML page, a Web service, or a directory listing). Running tests in ASP.NET requires the URL to resolve to an ASP.NET page and for the page to execute properly up to the Load event. The response from the request is stored in the file 'WebRequestResponse_UsersContextConstruc.html' with the test results; typically this file can be opened with a Web browser to view its contents.</Message>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="STPHOTOSCALA01\WebRequestResponse_UsersContextConstruc.html" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+</TestRun>
